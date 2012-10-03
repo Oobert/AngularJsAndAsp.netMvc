@@ -7,6 +7,7 @@
 
     // configure html5 to get links working on jsfiddle
     $locationProvider.html5Mode(true);
+    $locationProvider.hashPrefix('!');
 });
 
 
@@ -31,7 +32,8 @@ angular.module('appTwo', [], function ($routeProvider, $locationProvider) {
                       window.location.href = path;
                   }});
     // configure html5 to get links working on jsfiddle
-    $locationProvider.html5Mode(true);
+              $locationProvider.html5Mode(true);
+              $locationProvider.hashPrefix('!');
 });
 
 

@@ -23,6 +23,7 @@ namespace MvcApplication1.Controllers
 
         public ActionResult AppOneIndex()
         {
+            ViewBag.BaseHref = "AppOne";
             return View();
         }
 
@@ -40,6 +41,7 @@ namespace MvcApplication1.Controllers
 
         public ActionResult AppTwoIndex()
         {
+            ViewBag.BaseHref = "AppTwo";
             return View();
         }
 

@@ -3,6 +3,9 @@
 <head>
     <meta charset="utf-8" />
     <title>@ViewBag.Title</title>
+    <base href="/@ViewBag.BaseHref">@*Needed for IE7/8 support for the base path not being /. This example has two apps so the base changes for both.*@
+    
+    
     <link href="@Url.Content("~/Content/Site.css")" rel="stylesheet" type="text/css" />
     
     
